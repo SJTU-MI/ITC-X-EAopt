@@ -13,7 +13,7 @@ git clone https://github.com/SJTU-MI/ITC-X-EAopt.git
 ````
 
 ### Package requirements:
-Some packages need to be installed on demand, such as [scikit-opt](https://scikit-opt.github.io/).
+Some packages need to be installed on demand, such as [scikit-opt](https://scikit-opt.github.io/), [numpy](https://numpy.org/).
 
 ## Try the desired parts of the project:
 
