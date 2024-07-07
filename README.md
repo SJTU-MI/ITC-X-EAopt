@@ -9,7 +9,7 @@ With the widespread application of nanomaterials in micro-nano devices, interfac
 ### Files loading:
 To download, clone this repository:<br>
 ````
-git clone https://github.com/SJTU-MI/HTPS4HTTEMOs.git
+git clone https://github.com/SJTU-MI/ITC-X-EAopt.git
 ````
 
 ### Package requirements:
