@@ -13,7 +13,7 @@ git clone https://github.com/SJTU-MI/ITC-X-EAopt.git
 ````
 
 ### Package requirements:
-Some packages need to be installed on demand, such as [Pymatgen](https://pymatgen.org/), [Xenonpy](https://github.com/yoshida-lab/XenonPy), [scikit-learn](https://scikit-learn.org/stable/), [BayesianOptimization](https://github.com/bayesian-optimization/BayesianOptimization).
+Some packages need to be installed on demand, such as [scikit-opt](https://scikit-opt.github.io/).
 
 ## Try the desired parts of the project:
 
