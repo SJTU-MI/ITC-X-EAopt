@@ -17,15 +17,13 @@ Some packages need to be installed on demand, such as [scikit-opt](https://sciki
 
 ## Try the desired parts of the project:
 
-### Code in the HTPS4HTTEMOs folder
-**1_data4PF**: Power factor (PF) data collection and initial descriptor creation.
-- 1_MP_api_features: Descriptors retrieved from the MP database
-- 2_Xenonpy_features: Descriptors retrieved from Xenonpy
-- 3_data4PF: The PF data and initial descriptor.
+### Code in the ITC-X-EAopt folder
+**0-data_ITC**: interfacial thermal conductance (ITC) data collection
+- SiSi_structure_ITC.txt: ITC data for the Si-Si interface
+- SiGe_structure_ITC.txt: ITC data for the Si-Ge interface
 
-**2_featurefiltering**: Feature down-selection process.
-- 1_lowvar: Screening features through variance.
-- 2_corfilter: Screening features through correlation coefficient.
+**1-GA**:
+- GArunalone.py: the code for running genetic algorithm alone
 
 **3_featurecreation_bySR**: Feature creation process by symbolic regression (SR).
 - 1_PC: Feature creation based on Pearson correlation (PC).
