@@ -40,13 +40,14 @@ Some packages need to be installed on demand, such as [scikit-opt](https://sciki
 To run the GA, PSO, and SA alone, try these commands:<br>
 ````
 cd dir/1-GA (2-PSO, 3-SA)
-cp -r dir/0-data_ITC ./
+cp -r dir/0-data_ITC ./data_ITC
 python GArunalone.py (PSOrunalone.py, SArunalone.py)
 ````
 
 To run the X+EA hybrid optimization, try these commands:<br>
 ````
 cd dir/4-X+EA/demo_run
+cp -r dir/0-data_ITC ./data_ITC
 cp -r dir/sko_msl/* ./
 cp -r dir/run_file/XGArun.py (XPSOrun.py, XSArun.py) ./
 python XGArun.py (XPSOrun.py, XSArun.py)
