@@ -44,6 +44,14 @@ cp -r dir/0-data_ITC ./
 python GArunalone.py (PSOrunalone.py, SArunalone.py)
 ````
 
+To run the X+EA hybrid optimization, try these commands:<br>
+````
+cd dir/4-X+EA/demo_run
+cp -r dir/sko_msl/* ./
+cp -r dir/run_file/XGArun.py (XPSOrun.py, XSArun.py) ./
+python XGArun.py (XPSOrun.py, XSArun.py)
+````
+
 ## Authors
 
 | **AUTHORS** |Shengluo Ma, Shenghong Ju            |
