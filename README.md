@@ -57,9 +57,9 @@ Some packages need to be installed on demand, such as [scikit-opt](https://sciki
 
 | **AUTHORS** |Shengluo Ma, Shenghong Ju            |
 |:-------------:|--------------------------------------------------|
-| **VERSION** | V1.0 / November,2023                               |
+| **VERSION** | V1.0 / May, 2024                               |
 | **EMAILS**  | shenghong.ju@sjtu.edu.cn                         |
 | **GROUP HOME**  | https://ju.sjtu.edu.cn/en/                         |
 
 ## Attribution
-This work is under BSD-2-Clause License. Please, acknowledge use of this work with the appropiate citation to the repository and research article.
+This work is under BSD-3-Clause License. Please, acknowledge use of this work with the appropiate citation to the repository and research article.
