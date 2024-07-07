@@ -36,6 +36,14 @@ Some packages need to be installed on demand, such as [scikit-opt](https://sciki
 - run_file: the code for running X+EA hybrid optimization
 - sko_msl: the basic code of X+EA hybrid optimization
 
+### running
+To run the GA, PSO, and SA alone, try these commands:<br>
+````
+cd dir/1-GA (2-PSO, 3-SA)
+cp -r dir/0-data_ITC ./
+python GArunalone.py (PSOrunalone.py, SArunalone.py)
+````
+
 ## Authors
 
 | **AUTHORS** |Shengluo Ma, Shenghong Ju            |
