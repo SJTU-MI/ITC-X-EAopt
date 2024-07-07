@@ -22,34 +22,19 @@ Some packages need to be installed on demand, such as [scikit-opt](https://sciki
 - SiSi_structure_ITC.txt: ITC data for the Si-Si interface
 - SiGe_structure_ITC.txt: ITC data for the Si-Ge interface
 
-**1-GA**:
+**1-GA**
 - GArunalone.py: the code for running genetic algorithm alone
 
-**3_featurecreation_bySR**: Feature creation process by symbolic regression (SR).
-- 1_PC: Feature creation based on Pearson correlation (PC).
-- 2_SC: Feature creation based on Spearman correlation (SC).
-- 3_DC: Feature creation based on Distance correlation (DC).
+**2-PSO**
+- PSOrunalone.py: the code for running particle swarm optimization alone
 
-**4_PFmodel**: PF prediction model training.
-- 1_RF: Random Forest model training.
-- 2_XG: XGBoost model training.
-- 3_MLP: Multi-Layer Perceptron model training.
+**3-SA**
+- SArunalone.py: the code for running simulated annealing alone
 
-**5_SHAPanalysis**: SHAP analysis for the PF prediction model.
-- 1_featureimportance: Feature importance calculation.
-- 2_beeswarm_plot: Beeswarm plot on SHAP.
-- 3_dependence_plot: Dependence plot on SHAP.
-
-**6_meltingpointAPI**: API for the [melting point prediction model](https://www.pnas.org/doi/10.1073/pnas.2209630119).
-- 1_prepare4API: Prepare the API json file from MP database for melting point prediction.
-- 2_meltingpoint_predict: Melting point prediction.
-- 3_meltingpoint_result: Melting point prediction results.
-
-**7_HTP_virtualscreening**: Virtual screening for High-Temperature Thermoelectric Metal Oxides.
-- 1_MPscreening: High-Throughput Screening based on MP database.
-- 2_MLprediction: PF prediction of three ML models.
-
-**8_PF_calresults**: The PF results by High-Throughput (HTP) DFT calculations.
+**4-X+EA**: the X+EA hybrid optimization method
+- demo_run: a demo X result
+- run_file: the code for running X+EA hybrid optimization
+- sko_msl: the basic code of X+EA hybrid optimization
 
 ## Authors
 
