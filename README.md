@@ -53,6 +53,31 @@ cp -r dir/run_file/XGArun.py (XPSOrun.py, XSArun.py) ./
 python XGArun.py (XPSOrun.py, XSArun.py)
 ````
 
+### Data in the ITC-X-EAopt folder
+**1-GA**: nanostructure design via genetic algorithm
+- 1-populationsize: hyperparameter population size N in GA
+- 2-probability: hyperparameter crossover probability Pc and mutation probability Pm in GA
+
+**2-PSO**: nanostructure design via particle swarm optimization
+- 1-populationsize: hyperparameter population size N in PSO
+- 2-inertiaweight: hyperparameter inertia weight 𝜔 in PSO
+- 3-c1c2coefficient: hyperparameter c1 and c2 in PSO
+
+**3-SA**: nanostructure design via simulated annealing
+- 1-struc_count_ITC: hyperparameter L and kmax in SA
+- 2-chainlength: hyperparameter L in SA
+- 3-tempcurve: hyperparameter m, n, and q in SA
+
+**4-comparison**: comparisons among EAs and other algorithms
+- 1-globalsearch: global search
+- 2-localoptima: local optima
+- 3-time: coretime
+
+**5-X+EA**: nanostructure design via X+EA hybrid optimization
+- 0-data: data
+- 1-BOGA: BO+GA
+- 2-MCGA: MCTS+GA
+
 ## Authors
 
 | **AUTHORS** |Shengluo Ma, Shenghong Ju            |
