@@ -4,6 +4,9 @@ We demonstrate the optimization of ITC across nanostructures by developing an X+
 ## Description
 With the widespread application of nanomaterials in micro-nano devices, interfacial thermal conductance (ITC) has become an indispensable parameter in thermal management. We demonstrate the optimization of ITC across nanostructures by developing an X+EA hybrid optimization method based on evolutionary algorithms (EAs) combined with the atomistic Green's function. Due to the inconvenient hyperparameters tuning associated with EAs, we conduct thousands of grid searches on the hyperparameter configurations of three typical EAs: genetic algorithm (GA), particle swarm optimization (PSO), and simulated annealing (SA), resulting in more suitable parameter ranges. Compared to previous nanostructure design work using Bayesian optimization (BO) and Monte Carlo tree search (MCTS), we find that EAs exhibit robust structural design capabilities and extremely low optimization costs, particularly the GA with the fewest hyperparameters. Furthermore, we propose a highly compatible X+EA hybrid optimization strategy, where X can be substituted with the optimization results of any algorithm and used as the initial structures in the subsequent running of EAs. Among various hybrid optimizations with non-strict hyperparameter settings, the global search capability of BO+GA even rivals that of BO, while reducing optimization time by over 95%. And MCTS+GA effectively resolves the issue of MCTS alone yielding only a few local optima. The proposed X+EA framework can adapt to the nanostructure design with high degrees of freedom or large candidates.
 
+![Fig](https://github.com/user-attachments/assets/dc9334e2-2ae9-4631-8ba9-4c1b36ce6624)
+
+
 ## Installation
 
 ### Files loading:
